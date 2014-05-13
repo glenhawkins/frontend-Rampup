@@ -1,0 +1,39 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.col {
+	background-color: #0066cc; 
+	height: auto; 
+	display:block;
+	width: 50%;
+	float:left;
+}
+header ul li {
+	display:inline; 
+	}
+	nav {
+		padding: 30px 25px; 
+		background-color: rgb(24, 11, 6); 
+		word-spacing: 30px;
+	}
+a {
+	color: #ffffff; text-decoration: none;
+	}
+ul {
+	text-align: center;
+}
+footer {
+	text-align:center; clear:both;
+}
+h2 {
+	text-align: center;
+}
+p {
+	text-align: center; padding: 20px; font-family: helvetica;
+}
+section {
+	margin: 0 auto; 
+	width: 100%; 
+	max-width: 1024px;
+}
