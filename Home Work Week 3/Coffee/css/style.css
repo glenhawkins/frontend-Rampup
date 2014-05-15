@@ -14,24 +14,34 @@ header ul li {
 	}
 nav {
 	padding: 20px 5px; 
-	background-color: rgb(24, 11, 6); 
+	background-color: #472606; 
 	word-spacing: 30px;
-	margin-top: -190px;
+	margin-top: -200px;
 	}
 a {
-	color: #ffffff; text-decoration: none;
+	color: #ffffff; 
+	text-decoration: none;
 	}
 ul {
 	text-align: center;
 }
 footer {
-	text-align:center; clear:both;
+	text-align:center; 
+	clear:both;
+	color:#ffffff;
+	padding: 20px;
+	background-color: #472606;
 }
 h2 {
 	text-align: center;
+	font-family: helvetica;
+	text-decoration: none;
+	margin-top: 20px;
 }
 p {
-	text-align: center; padding: 20px; font-family: helvetica;
+	text-align: center; 
+	padding: 20px; 
+	font-family: georgia;
 }
 section {
 	margin: 0 auto; 
@@ -46,7 +56,4 @@ img {
 .logo {
 	position:relative;
 	top:-250px;
-}
-.beans {
-
 }
