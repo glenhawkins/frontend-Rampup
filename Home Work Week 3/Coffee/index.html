@@ -4,20 +4,23 @@
 	<title>My Site</title>
 	<link type="text/css" rel="stylesheet" href="css/style.css"/>
 </head>
+	
 <body>
-	<img class="beans" src="images/beans.jpg" alt="beans">
-	<img  class="logo" src="images/beans-logo.png" alt="logo">
 <div id="wrapper">
-	<header>
-	<nav>
-		<ul>
-			<li>><a href="#about">about</a></li>
-			<li><a href="link">beans</a></li>
-			<li><a href="link">special</a></li>
-			<li><a href="link">contact</a></li>
-		</ul>
-	</nav>
-	</header>
+	<header><!--relative-->
+	<div class="container">
+		<!--<img src="images/beans.jpg" alt="beans">-->
+		<img class="logo" src="images/beans-logo.png" alt="logo">
+		<nav> <!--absolute-->
+			<ul>
+				<li>><a href="#about">about</a></li>
+				<li><a href="link">beans</a></li>
+				<li><a href="link">special</a></li>
+				<li><a href="link">contact</a></li>
+			</ul>
+		</nav>
+	</div>
+	</header> 
 
 	<section>
 		<div class="col">
@@ -34,7 +37,8 @@
 	</section>
 
 	<footer>
-		<p id="about">123 Latte Lane, Javaville - 555-423-1234<br>&copy;Dream Beans Caffe 2013</p>
+		<div class="container"><p id="about">123 Latte Lane, Javaville - 555-423-1234<br>&copy;Dream Beans Caffe 2013</p>
+		</div>
 	
 	</footer>
 </div>

@@ -3,20 +3,32 @@
 	padding: 0px;
 }
 .col {
-	background-color: #ffffff; 
 	height: auto; 
 	display:block;
 	width: 50%;
 	float:left;
 }
+header {
+	position:relative;
+	background:url(../images/beans.jpg) no-repeat center top;
+	display:block;
+	width:100%;
+	height:280px;
+
+}
 header ul li {
 	display:inline; 
 	}
 nav {
-	padding: 20px 5px; 
+	padding: 10px 0; 
 	background-color: #472606; 
-	word-spacing: 30px;
-	margin-top: -200px;
+	position:absolute;
+	bottom: 25px;
+	width: 100%;
+	}
+
+nav ul li {
+	margin-left:  30px;
 	}
 a {
 	color: #ffffff; 
@@ -24,13 +36,6 @@ a {
 	}
 ul {
 	text-align: center;
-}
-footer {
-	text-align:center; 
-	clear:both;
-	color:#ffffff;
-	padding: 20px;
-	background-color: #472606;
 }
 h2 {
 	text-align: center;
@@ -48,12 +53,23 @@ section {
 	width: 100%; 
 	max-width: 1024px;
 }
-img {
+img.logo {
 	display: block;
-	margin-left: auto;
-	margin-right: auto;
+	margin: 0 auto;
+	padding-top: 10px
 }
-.logo {
+.container {
+	max-width: 1024px;
+	display:block;
+	height: 100%;
+	width:100%;
 	position:relative;
-	top:-250px;
+	margin:auto;
+}
+footer .container {
+	text-align:center; 
+	clear:both;
+	color:#ffffff;
+	padding: 20px 0;
+	background-color: #472606;
 }
