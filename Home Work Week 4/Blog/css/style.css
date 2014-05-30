@@ -29,6 +29,7 @@ h2 {
 	float:right;
 	padding-right: 20px;
 }
+
 header {
 	position: relative;
 	border-bottom: 1px solid #000;
@@ -48,3 +49,37 @@ nav {
 	nav li{
 		display: inline;
 	}
+	@media all and (max-width: 800px) {
+		.col {
+			float: none;
+			width: 100%;
+		}
+		.leftnav {
+			display:none;
+		}
+	}
+
+	/*
+		iPhone 5 portrait & landscape
+	*/
+
+	@media only screen and (min-device-width: 320px) and (max-device-width:568px){
+		nav {
+			position: relative;
+			display:block;
+			padding-left:2%;
+		}
+		.superlogo {
+
+		}
+		.leftnav {
+			display: none;
+		}
+		.col {
+			float:left;
+			padding-right: 5%;
+			padding-left: 2%;
+			width: 93%;
+		}
+	}
+
