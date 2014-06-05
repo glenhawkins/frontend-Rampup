@@ -2,6 +2,9 @@
 	margin: 0px;
 	padding: 0px;
 }
+html, body {
+	overflow-x: hidden;
+}
 .col {
 	height: auto; 
 	display:block;
@@ -19,13 +22,28 @@ header {
 header ul li {
 	display:inline; 
 	}
+
 nav {
 	padding: 10px 0; 
 	background-color: #472606; 
 	position:absolute;
 	bottom: 25px;
-	width: 100%;
+	width: 50%;
 	}
+nav:before, nav:after {
+	content: "";
+	position: absolute;
+	background: #472606;
+	top: 0;
+	bottom: 0;
+	width: 9999;
+}
+nav:before {
+	right: 100%;
+}
+nav:after {
+	left: 100%;
+}
 
 nav ul li {
 	margin-left:  30px;
