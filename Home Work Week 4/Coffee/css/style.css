@@ -91,3 +91,23 @@ footer .container {
 	padding: 20px 0;
 	background-color: #472606;
 }
+@media all and (max-width:; 800px) {
+	nav {
+max-width: 320px;
+}
+
+
+	/*
+		iPhone 5 portrait & landscape
+	*/
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px){
+	nav {
+		max-width: 320px;
+	}
+	section {
+		width: 98%;
+	}
+}
+
+
+
